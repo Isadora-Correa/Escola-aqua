@@ -43,6 +43,7 @@
     font-weight: 700;
     font-size: 14pt;
     cursor: pointer;
+    z-index: 1000;
 }
 
 
