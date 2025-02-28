@@ -19,7 +19,7 @@
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-1 rtl:space-x-reverse">
                 <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Ver projeto
+                    <a href="#home">Ver projeto</a> 
                 </button>
                 <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
                     <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
@@ -220,64 +220,61 @@
                 </div>
                 <div id="modal-container-gemini" class="modal-container">
                     <div class="modal">
-                        <div id="controls-carousel" class="relative w-full" data-carousel="static">
-                            <!-- Carousel wrapper -->
-                            <div class="relative h-90 overflow-hidden rounded-lg md:h-96">
-                                <!-- Item 1 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel 4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 2 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                                    <img src="src/images/miguel/miguel1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 3 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 4 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel3.jpg"" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 5 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 5 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 6 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 7 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="src/images/miguel/miguel7.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                </div>
-                                <!-- Item 8 -->
-                                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                                    <video src="src/images/miguel/video-miguel1.mp4" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" controls autoplay muted></video>
-                                </div>
-                            </div>
-                            <!-- Slider controls -->
-                            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                                    </svg>
-                                    <span class="sr-only">Previous</span>
-                                </span>
-                            </button>
-                            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                                    </svg>
-                                    <span class="sr-only">Next</span>
-                                </span>
-                            </button>
-                        </div>
+                        
+
+<div id="animation-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="src/images/miguel/miguel 4.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <p class="mt-2 text-sm text-gray-700">Confecção de um peão</p>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="src/images/miguel/miguel1.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+            <img src="src/images/miguel/miguel2.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="src/images/miguel/miguel3.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="src/images/miguel/miguel5.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 6 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="src/images/miguel/miguel6.jpg" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 7 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <video src="src/images/miguel/video-miguel1.mp4" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" controls autoplay muted></video>
+
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
                     </div>
                 </div>
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">

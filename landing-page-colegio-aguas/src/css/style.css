@@ -17,7 +17,6 @@
     border-radius: 20px;
     width:  85%; /* Largura ocupando 80% da tela */
     max-width: 600px; /* Largura máxima de 600px */
-    height:  85%;
     max-height: 100%; /* Altura máxima de 90% da tela */
     overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for maior que a altura */
     position: relative; /* Para posicionar o botão de fechar */
