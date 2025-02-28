@@ -66,3 +66,19 @@
     animation: animate-modal .3s;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.01);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #3B3E99;
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #1b1d47;
+  }
