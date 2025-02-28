@@ -83,3 +83,54 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb:hover {
     background: #1b1d47;
   }
+
+
+  :is(.dark .dark\:text-white) {
+    --tw-text-opacity: 1;
+    color: rgb(255 135 40);
+}
+
+.text-blue-900 {
+    --tw-text-opacity: 1;
+    color: rgb(255 135 40);
+}
+
+:is(.dark .dark\:text-blue-400) {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+}
+
+:is(.dark .dark\:bg-blue-800) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 56 118);
+}
+
+:is(.dark .dark\:bg-blue-600) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 135 40);
+}
+
+.bg-blue-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 135 40);
+}
+
+.bg-blue-50 {
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+}
+
+.text-blue-500 {
+    --tw-text-opacity: 1;
+    color: #919191;
+}
+
+:is(.dark .dark\:bg-blue-600) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255);
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(35 56 118);
+}
